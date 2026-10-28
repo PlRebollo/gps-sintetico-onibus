@@ -151,9 +151,9 @@ gps-sintetico-onibus/
 
 ## Dados sintéticos
 
-As amostras a 1 Hz (12 arquivos `synthetic_fulltrip_dirichlet_{LINHA}.csv.gz`,
+As amostras a 1 Hz (15 arquivos `synthetic_fulltrip_dirichlet_{LINHA}.csv.gz`, um por linha,
 cerca de 400 MB no total) estão anexadas à
-[release v1.0](../../releases/tag/v1.0). Para usá-las, coloque os arquivos em
+[release v1.0](https://github.com/PlRebollo/gps-sintetico-onibus/releases/tag/v1.0). Para usá-las, coloque os arquivos em
 `dados_sinteticos/`.
 
 Colunas: `linha, sentido, hour_bucket, synth_leg_id, anchor_leg_id, t_s, dt,
