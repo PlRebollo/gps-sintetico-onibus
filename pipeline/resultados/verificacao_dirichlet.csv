@@ -1,0 +1,5 @@
+,alpha_medio,razao_max_min_alpha,peso_max_medio,N_eff
+anterior K=8 a0=7 (kernel d^2),0.8750,1.0069,0.3563,4.5023
+artigo K=6 a0=7 (kernel D),1.1667,1.0238,0.3902,3.8815
+escolhida K=4 a0=2.0 (kernel D),0.5000,1.0228,0.6224,2.1731
+uniforme K=4,1.0000,1.0000,0.5242,2.6355

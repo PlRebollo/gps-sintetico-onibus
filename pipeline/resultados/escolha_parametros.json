@@ -1,0 +1,11 @@
+{
+  "span_ratio": 1.05,
+  "K": 4,
+  "alpha0": 2.0,
+  "N_eff": 2.0,
+  "KS_medio": 0.16961278607406358,
+  "div_T_med": 0.813219576537712,
+  "div_S_med": 0.3372769973147061,
+  "razao_privacidade": 0.6672342978509899,
+  "criterio": "N_eff >= 2 e div_T >= 0,75; minimiza KS_medio"
+}

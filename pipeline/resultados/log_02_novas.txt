@@ -1,0 +1,95 @@
+Carregando shapes oficiais...
+Sentidos: [('023', 'circular', '4911'), ('508', 'circular', '3900'), ('040', 'ida', '1717'), ('040', 'volta', '1718'), ('050', 'ida', '1719'), ('050', 'volta', '1720'), ('216', 'ida', '1785'), ('216', 'volta', '2778'), ('303', 'ida', '2585'), ('303', 'volta', '3617'), ('506', 'ida', '2601'), ('506', 'volta', '2602'), ('603', 'ida', '3155'), ('603', 'volta', '3156'), ('658', 'ida', '2114'), ('658', 'volta', '2115'), ('707', 'ida', '5183'), ('707', 'volta', '5184')]
+
+Carregando pings de marco/2026 e segmentando...
+Pings: 16,195,877 | viagens validas: 50,410
+
+Montando itens (configuracao fixa, N viagens = 100)...
+[viagens] 023/circular: 147 candidatas, 146 apos validacao contra o shape
+  [item 0] 023/circular v100: 100/146 viagens | 100 veiculos | 59,765 pings
+[viagens] 508/circular: 55 candidatas, 54 apos validacao contra o shape
+  [item 1] 508/circular v100: 54/54 viagens | 54 veiculos | 59,654 pings
+[viagens] 040/ida: 2298 candidatas, 2294 apos validacao contra o shape
+  [item 2] 040/ida v100: 100/2294 viagens | 5 veiculos | 52,274 pings
+[viagens] 040/volta: 2096 candidatas, 2081 apos validacao contra o shape
+  [item 3] 040/volta v100: 100/2081 viagens | 4 veiculos | 53,366 pings
+[viagens] 050/ida: 1541 candidatas, 1530 apos validacao contra o shape
+  [item 4] 050/ida v100: 100/1530 viagens | 35 veiculos | 33,810 pings
+[viagens] 050/volta: 1510 candidatas, 1503 apos validacao contra o shape
+  [item 5] 050/volta v100: 100/1503 viagens | 38 veiculos | 36,678 pings
+[viagens] 216/ida: 2310 candidatas, 2230 apos validacao contra o shape
+  [item 6] 216/ida v100: 100/2230 viagens | 28 veiculos | 23,449 pings
+[viagens] 216/volta: 2580 candidatas, 2566 apos validacao contra o shape
+  [item 7] 216/volta v100: 100/2566 viagens | 28 veiculos | 21,832 pings
+[viagens] 303/ida: 3429 candidatas, 3375 apos validacao contra o shape
+  [item 8] 303/ida v100: 100/3375 viagens | 4 veiculos | 33,599 pings
+[viagens] 303/volta: 3407 candidatas, 3372 apos validacao contra o shape
+  [item 9] 303/volta v100: 100/3372 viagens | 4 veiculos | 32,420 pings
+[viagens] 506/ida: 2208 candidatas, 2204 apos validacao contra o shape
+  [item 10] 506/ida v100: 100/2204 viagens | 26 veiculos | 19,475 pings
+[viagens] 506/volta: 2282 candidatas, 2224 apos validacao contra o shape
+  [item 11] 506/volta v100: 100/2224 viagens | 29 veiculos | 20,611 pings
+[viagens] 603/ida: 3544 candidatas, 3543 apos validacao contra o shape
+  [item 12] 603/ida v100: 100/3543 viagens | 35 veiculos | 18,176 pings
+[viagens] 603/volta: 3703 candidatas, 3650 apos validacao contra o shape
+  [item 13] 603/volta v100: 100/3650 viagens | 32 veiculos | 17,330 pings
+[viagens] 658/ida: 1637 candidatas, 1634 apos validacao contra o shape
+  [item 14] 658/ida v100: 100/1634 viagens | 4 veiculos | 32,592 pings
+[viagens] 658/volta: 1653 candidatas, 1645 apos validacao contra o shape
+  [item 15] 658/volta v100: 100/1645 viagens | 4 veiculos | 32,074 pings
+[viagens] 707/ida: 2233 candidatas, 2097 apos validacao contra o shape
+  [item 16] 707/ida v100: 100/2097 viagens | 16 veiculos | 22,063 pings
+[viagens] 707/volta: 1984 candidatas, 1984 apos validacao contra o shape
+  [item 17] 707/volta v100: 100/1984 viagens | 17 veiculos | 21,168 pings
+Itens: 18 | execucoes: 18
+Configuracao fixa concluida em 11.6 s
+
+Rota fixa nao boa em 4 sentido(s): [('040', 'ida'), ('050', 'volta'), ('303', 'ida'), ('603', 'volta')]
+Rodando a grade completa do v11 nesses sentidos...
+
+Rotas escolhidas:
+  023/circular (4911): v11 | completa=True | razao=1.021 | cov15=93.1% | N=180 r=10 G=1.25
+  040/ida (1717): v11 | completa=True | razao=1.055 | cov15=95.8% | N=90 r=15 G=1.75
+  040/volta (1718): v11 | completa=True | razao=1.063 | cov15=96.4% | N=180 r=10 G=1.25
+  050/ida (1719): v11 | completa=True | razao=1.040 | cov15=96.5% | N=180 r=10 G=1.25
+  050/volta (1720): v11 | completa=True | razao=1.097 | cov15=93.3% | N=360 r=5 G=2
+  216/ida (1785): v11 | completa=True | razao=1.033 | cov15=98.7% | N=180 r=10 G=1.25
+  216/volta (2778): v11 | completa=True | razao=1.026 | cov15=98.9% | N=180 r=10 G=1.25
+  303/ida (2585): v11 | completa=True | razao=1.088 | cov15=95.5% | N=360 r=15 G=1.25
+  303/volta (3617): v11 | completa=True | razao=1.095 | cov15=95.6% | N=180 r=10 G=1.25
+  506/ida (2601): v11 | completa=True | razao=1.016 | cov15=94.5% | N=180 r=10 G=1.25
+  506/volta (2602): v11 | completa=True | razao=1.029 | cov15=96.3% | N=180 r=10 G=1.25
+  508/circular (3900): v11 | completa=True | razao=1.029 | cov15=91.1% | N=180 r=10 G=1.25
+  603/ida (3155): v11 | completa=True | razao=1.091 | cov15=93.4% | N=180 r=10 G=1.25
+  603/volta (3156): v11 | completa=True | razao=1.077 | cov15=87.1% | N=360 r=10 G=2
+  658/ida (2114): v11 | completa=True | razao=1.034 | cov15=97.5% | N=180 r=10 G=1.25
+  658/volta (2115): v11 | completa=True | razao=1.011 | cov15=98.0% | N=180 r=10 G=1.25
+  707/ida (5183): v11 | completa=True | razao=0.978 | cov15=93.7% | N=180 r=10 G=1.25
+  707/volta (5184): v11 | completa=True | razao=0.997 | cov15=90.8% | N=180 r=10 G=1.25
+
+linha  sentido shape_id  n_trips  completed            params  v11_km  v11_razao_oficial  v11_cov15  v11_mae_oficial_m  anterior_km  anterior_cov15  dist_v11_para_anterior_m  verificada_km  dist_v11_para_verificada_m  dist_verificada_para_v11_m
+  020 circular     4091      100          1 N=180 r=10 G=1.25  45.480              1.047      97.41               4.60       42.589           94.73                      3.75            NaN                         NaN                         NaN
+  022 circular     4146      100          1 N=180 r=10 G=1.25  38.550              1.035      95.51              17.22          NaN             NaN                       NaN            NaN                         NaN                         NaN
+  030      ida     5246      100          1 N=180 r=10 G=1.25  30.696              1.004      96.54               2.82       30.403           98.99                      2.80            NaN                         NaN                         NaN
+  030    volta     5247      100          1 N=180 r=10 G=1.25  31.042              1.013      97.18               4.14       29.599           89.34                      6.01            NaN                         NaN                         NaN
+  203      ida     3855      100          1 N=360 r=10 G=1.25  18.924              1.083      82.02               6.55          NaN             NaN                       NaN            NaN                         NaN                         NaN
+  203    volta     3856      100          1  N=180 r=15 G=1.1  17.795              1.073      88.31               4.58          NaN             NaN                       NaN            NaN                         NaN                         NaN
+  331 circular     4672      100          1 N=180 r=10 G=1.25   3.997              1.067      94.64              19.07        4.006           95.84                      2.88          4.006                        2.88                        3.44
+  023 circular     4911      100          1 N=180 r=10 G=1.25  38.795              1.021      93.12              20.78          NaN             NaN                       NaN            NaN                         NaN                         NaN
+  040      ida     1717      100          1  N=90 r=15 G=1.75  25.053              1.055      95.82               3.57          NaN             NaN                       NaN            NaN                         NaN                         NaN
+  040    volta     1718      100          1 N=180 r=10 G=1.25  23.647              1.063      96.36               3.83          NaN             NaN                       NaN            NaN                         NaN                         NaN
+  050      ida     1719      100          1 N=180 r=10 G=1.25  17.370              1.040      96.48               4.07          NaN             NaN                       NaN            NaN                         NaN                         NaN
+  050    volta     1720      100          1     N=360 r=5 G=2  20.940              1.097      93.34               2.64          NaN             NaN                       NaN            NaN                         NaN                         NaN
+  216      ida     1785      100          1 N=180 r=10 G=1.25  13.710              1.033      98.72               5.62          NaN             NaN                       NaN            NaN                         NaN                         NaN
+  216    volta     2778      100          1 N=180 r=10 G=1.25  12.805              1.026      98.87               3.71          NaN             NaN                       NaN            NaN                         NaN                         NaN
+  303      ida     2585      100          1 N=360 r=15 G=1.25  19.870              1.088      95.51              17.76          NaN             NaN                       NaN            NaN                         NaN                         NaN
+  303    volta     3617      100          1 N=180 r=10 G=1.25  20.087              1.095      95.62               6.00          NaN             NaN                       NaN            NaN                         NaN                         NaN
+  506      ida     2601      100          1 N=180 r=10 G=1.25  18.145              1.016      94.51               7.96          NaN             NaN                       NaN            NaN                         NaN                         NaN
+  506    volta     2602      100          1 N=180 r=10 G=1.25  18.374              1.029      96.33              12.87          NaN             NaN                       NaN            NaN                         NaN                         NaN
+  508 circular     3900      100          1 N=180 r=10 G=1.25  33.511              1.029      91.14              37.49          NaN             NaN                       NaN            NaN                         NaN                         NaN
+  603      ida     3155      100          1 N=180 r=10 G=1.25  11.228              1.091      93.38               3.32          NaN             NaN                       NaN            NaN                         NaN                         NaN
+  603    volta     3156      100          1    N=360 r=10 G=2  10.618              1.077      87.14               4.46          NaN             NaN                       NaN            NaN                         NaN                         NaN
+  658      ida     2114      100          1 N=180 r=10 G=1.25  12.264              1.034      97.46               2.92          NaN             NaN                       NaN            NaN                         NaN                         NaN
+  658    volta     2115      100          1 N=180 r=10 G=1.25  11.699              1.011      98.02               2.35          NaN             NaN                       NaN            NaN                         NaN                         NaN
+  707      ida     5183      100          1 N=180 r=10 G=1.25  23.384              0.978      93.66               2.98          NaN             NaN                       NaN            NaN                         NaN                         NaN
+  707    volta     5184      100          1 N=180 r=10 G=1.25  22.997              0.997      90.81               4.41          NaN             NaN                       NaN            NaN                         NaN                         NaN

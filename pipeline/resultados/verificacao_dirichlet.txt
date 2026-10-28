@@ -1,0 +1,11 @@
+Verificacao automatica da sintese Dirichlet (verificacao_dirichlet.py), 25 rotas, 3.750 sinteticas
+
+  [OK   ] vetorizado = referencia (custo e curva registrada)  (max dif = 0.0e+00)
+  [OK   ] media e variancia de Dirichlet  (erro media 4.6e-04, erro var rel 8.0e-03)
+  [OK   ] pesos >= 0 e somam 1  (max |sum-1| = 2.2e-16)
+  [OK   ] T, S, s0 = soma ponderada dos vizinhos (ancora fora)  (erros: T 0.0e+00, S 0.0e+00, s0 0.0e+00 m)
+  [OK   ] alpha = alpha0 e^{-D}/sum e D = sqrt(custo DP)  (erro alpha 0.0e+00, erro D 0.0e+00)
+  [OK   ] vizinhos identicos a busca exaustiva  (candidatos por ancora ~ 214)
+  [OK   ] hora de inicio dentro da faixa do rotulo  (0 de 3750 fora da faixa)
+  [OK   ] dia sorteado do tipo da faixa (util / fim de semana)  (0 de 3750 no tipo errado)
+Resultado: 8 de 8 testes passaram.
